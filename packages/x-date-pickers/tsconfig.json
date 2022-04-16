@@ -1,9 +1,17 @@
 {
   "extends": "../../tsconfig",
   "compilerOptions": {
+    "jsx": "react",
     // @date-io libraries produce duplicate type `DateType`
     "skipLibCheck": true,
-    "types": ["react", "mocha", "node"]
+    "types": [
+      "react",
+      "mocha",
+      "node"
+    ]
   },
-  "include": ["src/**/*", "../../node_modules/@mui/monorepo/test/utils/initMatchers.ts"]
+  "include": [
+    "src/**/*",
+    "../../node_modules/@mui/monorepo/test/utils/initMatchers.ts"
+  ]
 }

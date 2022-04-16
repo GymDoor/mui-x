@@ -14,8 +14,8 @@ import {
 
 export interface ExportedCalendarProps<TDate>
   extends Pick<
-    PickersDayProps<TDate>,
-    'disableHighlightToday' | 'showDaysOutsideCurrentMonth' | 'allowSameDateSelection'
+  PickersDayProps<TDate>,
+  'disableHighlightToday' | 'showDaysOutsideCurrentMonth' | 'allowSameDateSelection'
   > {
   autoFocus?: boolean;
   /**
@@ -77,7 +77,7 @@ const PickersCalendarDayHeader = styled('div')({
 const PickersCalendarWeekDayLabel = styled(Typography)(({ theme }) => ({
   width: 36,
   height: 40,
-  margin: '0 2px',
+  margin: '0',
   textAlign: 'center',
   display: 'flex',
   justifyContent: 'center',

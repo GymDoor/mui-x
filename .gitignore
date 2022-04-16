@@ -14,7 +14,6 @@ __diff_output__
 /docs/pages/playground.tsx
 /docs/export
 /test/regressions/screenshots
-build
 dist
 node_modules
 size-snapshot.json
