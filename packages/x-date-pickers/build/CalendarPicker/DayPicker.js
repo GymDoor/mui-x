@@ -19,7 +19,7 @@ const PickersCalendarWeekDayLabel = styled(Typography)(({
 }) => ({
   width: 36,
   height: 40,
-  margin: '0 2px',
+  margin: '0',
   textAlign: 'center',
   display: 'flex',
   justifyContent: 'center',
